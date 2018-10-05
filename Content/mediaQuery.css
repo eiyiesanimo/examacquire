@@ -1,0 +1,255 @@
+﻿/* MEDIA QUERIES */
+@media (min-width: 769px) {
+    /* MASTER PAGE */
+    /* MAIN PAGE */
+    .fstamp {
+        padding: 6px 0;
+    }
+
+    /* TOP PART */
+    .container.media-topPart {
+        position: relative;
+    }
+    .topPart {
+        background: url(/Images/header-image.jpg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        min-height: 450px;
+        margin: auto;
+    }
+
+    /* MID PART */
+    .midPart {
+        width: 100%;
+        padding: 0;
+    }
+    .bpServices {
+        position: absolute;
+        top: 180px;
+        left: 30px;
+    }
+    .bpServices {
+        width: 500px;
+        background-color: rgba(34, 34, 34, 0.8);
+        padding: 30px;
+    }
+    .bpServices h1,
+    .bpServices p {
+        margin: 0;
+        padding: 0;
+    }
+    .bpServices h1 {
+        font-family: Montserrat, Arial;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #D2691E;
+        padding-bottom: 20px;
+    }
+    .bpServices p {
+        font-family: Verdana, Arial;
+        font-size: 14px;
+        color: #ffffff;
+    }
+    .midPart .bpService-table {
+        padding: 0;
+    }
+    .midPart .bpService-table h1 {
+        padding: 10px 15px 20px;
+        margin: 0;
+    }
+    .midPart .bpService-table .table {
+        padding: 0;
+        margin: 0;
+    }
+    .midPart .bpService-table .table tr td {
+        padding: 10px 15px;
+        margin: 0;
+        border: none;
+    }
+        .midPart .bpService-table .table tr td:first-child {
+            width: 35%;
+        }
+    .midPart .bpService-table .table tr td h4,
+    .midPart .bpService-table .table tr td p {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* LOW PART */
+    .lowPart {
+        background-color: #efefef;
+        width: 100%;
+        padding: 0;
+    }
+    .lowPart .bpService-table {
+        padding: 10px 0;
+        margin: 0;
+    }
+    .lowPart .bpService-table h1 {
+        margin: 0;
+        padding: 20px 15px;
+    }
+    .lowPart .bpService-table .table {
+        margin: 0;
+    }
+    .lowPart .bpService-table .table tr td {
+        padding: 10px 15px;
+        margin: 0;
+        border: none;
+    }
+        .lowPart .bpService-table .table tr td:first-child {
+            width: 35%;
+        }
+    .lowPart .bpService-table .table tr td h4,
+    .lowPart .bpService-table .table tr td p {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* TOP PART */
+    .topPart {
+        background: url(/Images/header-image.jpg) top center no-repeat;
+        background-size: cover;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+    }
+    .bpServices {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #222222;
+    }
+    .bpServices p,
+    .bpServices h1 {
+        margin: 0;
+    }
+    .bpServices h1 {
+        color: #f78024;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .bpServices p {
+        padding: 0 10px 10px 10px;
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+    /* MID PART */
+    .container.media-midPart .midPart h1 {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .container.media-midPart .midPart p {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .bpService-table h1 {
+        font-size: 16px;
+        margin: 0;
+        padding: 10px 20px;
+    }
+    .bpService-table .table-responsive {
+        border: none;
+        width: 300px;
+        padding: 10px;
+    }
+    .bpService-table .table-responsive::-webkit-scrollbar {
+        display: none;
+    }
+    .bpService-table .table-responsive .table tr td {
+        border: none;
+        display: block;
+        padding: 0;
+        width: 300px;
+        white-space: pre-wrap;
+    }
+    .bpService-table .table-responsive .table tr td.except {
+        white-space: nowrap;
+        margin-bottom: 10px;
+    }
+    .bpService-table .table-responsive .table tr td.except p:first-child {
+        white-space: pre-wrap;
+    }
+    .bpService-table .table-responsive .table tr td.except p.indent {
+        text-indent: 10px;
+        list-style-type: disc; 
+    }
+    .bpService-table .table-responsive .table tr td h4,
+    .bpService-table .table-responsive .table tr td p {
+        margin: 0;
+        padding: 5px 10px;
+    }
+    .bpService-table .table-responsive .table tr td h4 {
+        font-size: 14px;
+    }
+    .bpService-table .table-responsive .table tr td p {
+        font-size: 12px;
+    }
+    /* bpContact */
+    .bpContact h1,
+    .bpContact p {
+        margin: 0;
+    }
+    .bpContact .form-group {
+        margin: 0 0 5px 0;
+        padding: 0 10px;
+    }
+    .bpContact .form-group:last-child {
+        margin-bottom: 10px;
+    }
+    .bpContact .form-group .control-label {
+        font-size: 12px;
+    }
+    .bpContact .form-group .form-control {
+        font-size: 12px;
+        border-radius: 0;
+    }
+    .bpContact .form-group .btn {
+        border-radius: 0;
+        font-size: 12px;
+    }
+
+    /* LOW PART */
+    .lowPart {
+        width: 100%;
+        padding: 0;
+        background-color: #efefef;
+    }
+    .lowPart .bpService-table {
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+    .lowPart .bpService-table h1 {
+        margin: 0;
+        padding: 15px 10px;
+        width: 100%;
+    }
+    .lowPart .bpService-table .table-responsive {
+        padding: 0;
+        margin: 0;
+    }
+    .lowPart .bpService-table .table-responsive .table {
+        margin: 0 0 10px 0;
+    }
+    .lowPart .bpService-table .table-responsive .table tr td {
+        padding: 0;
+        margin: 0;
+        border: none;
+        box-sizing: border-box;
+        width: 100%;
+    }
+        .lowPart .bpService-table .table-responsive .table tr td:first-child {
+            width: 100%;
+        }
+        .lowPart .bpService-table .table-responsive .table tr td:last-child {
+            width: 100%;
+        }
+    .lowPart .bpService-table .table-responsive .table tr td h4,
+    .lowPart .bpService-table .table-responsive .table tr td p {
+        padding: 5px 10px;
+        margin: 0;
+    }
+}

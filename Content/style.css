@@ -1,0 +1,310 @@
+@import "footer.css";
+
+* {
+    box-sizing: border-box;
+	margin: 0 auto;
+    font-family: Montserrat, Arial, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* HEADER */
+.csHeader {
+    width: 1000px;
+    max-width: 100%;
+}
+
+/* BODY */
+.csBody {
+    width: 1000px;
+    max-width: 100%;
+}
+[class^="section"] {
+    padding: 20px 10px;
+}
+[class^="section"]:last-child {
+    padding-bottom: 20px;
+}
+.agentWedo {
+    background: url(../Images/WeDo.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.agentThreats {
+    background: url(../Images/threats.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.agentWork {
+    background: url(../Images/work.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.agent .alert {
+    margin: 20px 50px;
+}
+
+table.table tr td {
+    border: none;
+}
+.center-block {
+    margin: auto;
+    vertical-align: middle;
+}
+
+img.imgThreats {
+    max-width: 25px;
+    min-width: 23px;
+}
+.section-7 {
+    padding: 20px 60px;
+}
+
+/* headerCyber */
+/*.freeMac {
+    width: 1000px;
+    max-width: 1000px;
+    height: auto;
+}
+.cyberLogo {
+	max-width: 100%;
+    margin: 10px;
+}*/
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.headerCyber {
+	max-width: 760px;
+	padding: 40px;
+	box-shadow: 0px 5px 30px #777777;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-color: #ffffff;
+}
+.headerCyber p {
+	padding-top: 10px;
+}
+
+/* bgSurvey */
+.bgSurvey {
+	margin-bottom: 30px;
+}
+.survey {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+hr {
+	max-width: 560px;
+	border-color: #eeeeee;
+	box-shadow: 0 2px 15px #e7e7e7;
+}
+.surveyHeader h1 {
+	padding: 60px 30px 30px 30px;
+	text-align: center;
+}
+.surveyBody {
+	padding: 10px 30px;
+}
+.surveyBody h3 {
+	padding: 0px 20px;
+}
+.surveyFooter {
+	padding: 0px 50px 30px 50px;
+}
+.surveyFooter .btn {
+	padding: 10px 26px;
+	border-radius: 2px;
+	transition: ease-out .3s;
+	-webkit-transition: ease-out .3s;
+	border: 2px solid #337ab7;
+}
+.btn.btn-primary:hover {
+	transition: ease-in .3s;
+	-webkit-transition: ease-in .3s;
+	border: 2px solid #337ab7;
+	background-color: #ffffff;
+	color: #337ab7;
+}
+.btn.btn-primary:active {
+	border: 2px solid #337ab7;
+	background-color: #ffffff;
+	color: #ffffff;
+}
+.row {
+	padding: 5px 10px;
+}
+.space {
+	padding: 1px;
+}
+.navbar {
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #101010;
+	color: #fff;
+	padding: 20px;
+}
+
+/* BUTTON  */
+.btn-orange {
+    background-color: #00004C;
+    color: #FFD1B2;
+    border: 2px solid #FFD1B2;
+}
+.btn-orange:hover {
+    background-color: #000026;
+    color: #FFAB73;
+    border: 2px solid #FFAB73;
+}
+.btn-orange:focus {
+    background-color: #00004C;
+    color: #FFD1B2;
+    border: 2px solid #FFD1B2;
+}
+
+/* WHITEPAPERS */
+.whitepapers {
+    background: url(../Images/WhitePapers.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+/* ONLINE SURVEY */
+.surveyOnline {
+    background: url(../Images/freesurvey.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+/* EMERGENCY */
+.emergency {
+    background: url(../Images/EmergencyHelp.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+/* CONTACT */
+.contact {
+    background: url(../Images/ContactUs.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.cyberLogo {
+    margin: 10px;
+}
+
+#left-align p,
+#right-align p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+@media screen and (min-width: 769px) {
+    #logostamp {
+        display: none;
+        margin: 10px;
+    }
+    .cyberLogo img#logostamp {
+        max-width: 200px;
+        margin: 10px;
+    }
+    #myVideo {
+        position: relative;
+        min-width: 100%; 
+        min-height: 100%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    #left-align {
+        display: none;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    #fpstamp {
+        display: none;
+    }
+    .freeMac {
+        width: 100%;
+    }
+    .cyberLogo {
+        width: 250px;
+    }
+    #myVideo {
+        position: relative;
+        max-width: 100%; 
+        min-height: 100px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    #right-align {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    #fpstamp {
+        display: none;
+    }
+    #myVideo {
+        position: relative;
+        max-width: 100%; 
+        max-height: 100%;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    #right-align {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+﻿#scrollable-area {
+    height: 700px;
+    overflow-y: scroll; /* <-- here is what is important*/
+}
+table {
+  width: 100%;
+}
+thead {
+    background: #fff;
+}

@@ -1,0 +1,109 @@
+﻿body {
+    font-family: 'Roboto';font-size: 15px;
+}
+.container-layout {
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:20px;
+}
+
+.btn-round-lg{
+border-radius: 22.5px;
+}
+.btn-round{
+border-radius: 17px;
+}
+.btn-round-sm{
+border-radius: 15px;
+}
+.btn-round-xs{
+border-radius: 11px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.maincard {
+      transition: all linear 0.5s;
+}
+.maincard.ng-hide  {
+     opacity:0;
+}
+
+.cd {
+    float: left;
+    font-size: 15px;
+    margin: 10px 10px;
+    color: #888888;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:auto;
+
+}
+.pop {
+   
+    font-size: 15px;
+    padding-top:10px;
+    color: #888888;
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:auto;
+
+}
+
+textarea {
+  /* margin:0px 0px; this is redundant anyways since its specified below*/
+  padding-top:10px;
+  padding-bottom:25px; /* increased! */
+  /* height:16px; */
+  /* line-height:16px; */
+  width:220px; /* changed from 96 to 100% */
+  display:block;
+  /* margin:0px auto; not needed since i have width 100% now */
+}
+.activelink {
+    background-color:grey;
+}
+.inactivelink {
+    background-color:white
+}
+#footer {
+  height: 20px;
+  background: red; /*Same as body, you could also use transparent */
+  color: white;
+}
+.modal-title {
+     color: white;
+}
+.boxhead:link ,.boxhead:visited ,.boxhead:hover,.boxhead:active{
+    color: #012406;
+    text-decoration: none;
+    margin-top:20px;margin-left:20px;font-size:20px;
+}
+
+/* unvisited link */
+a.subheader:link {
+    color: #7E7B7B;
+}
+
+/* visited link */
+a.subheader:visited {
+    color: #7E7B7B;
+}
+
+/* mouse over link */
+a.subheader:hover {
+    color: #7E7B7B;
+}
+
+/* selected link */
+a.subheader:active {
+    color: #7E7B7B;
+}
+.center {
+    margin: auto;
+    width:30%;
+    overflow:hidden;
+    margin-top:5%;
+    font-family: "Roboto", sans-serif;
+   
+}

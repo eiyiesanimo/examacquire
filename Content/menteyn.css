@@ -1,0 +1,812 @@
+/*
+    This CSS is a mixed of hard and edited codes. Edited bootstraps are easy to find.
+    Please read the codes first before editing specific class and id.
+    Menteyn.CSS is part of AdminLogin.aspx.
+*/
+
+@import "sidebar.css";
+@import "loginForm.css";
+
+html {
+    min-height: 100%;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+/*========== NAVBAR EDIT ==========*/
+.navbar-fixed-top {
+    background-color: #C8641C;
+    border: none;
+    box-shadow: 0px 2px 8px #A85418;
+}
+.navbar-default .navbar-nav li a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav li:hover a {
+    background-color: #ffffff;
+    transition: ease-in-out .3s;
+    -webkit-transition: ease-in-out .3s;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #D2691E;
+}
+
+/*==================== CURRENT DOMAIN PER CUSTOMER - DOMAIN HEADER ====================*/
+.dependentDomain .headerDomain {
+    padding: 20px 20px 0 10px;
+}
+.dependentDomain .headerDomain h2 {
+    margin: 0 0 16px 0;
+}
+    .headerDomain h2 a {
+        color: #262626;
+    }
+    .headerDomain h2 a:hover {
+        color: #D2691E;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+/* DOMAIN EDIT */
+#edit::-webkit-scrollbar {
+    visibility: hidden;
+}
+.content {
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+#edit .content .header {
+    margin: 0 0 10px 10px;
+}
+#edit .form-control.dtype {
+    width: 200px;
+    max-width: 100%;
+}
+
+#edit .form-control.dWhois,
+#edit .form-control.dDays,
+#edit .form-control.dHasssl,
+#edit .form-control.dHasweb,
+#edit .form-control.dHasemail {
+    width: 200px;
+    max-width: 100%;
+}
+#edit .form-control.stats {
+    width: 200px;
+    max-width: 100%;
+}
+#edit .form-control.dDns {
+    width: 250px;
+    max-width: 100%;
+}
+#edit .form-control.dName {
+    width: 180px;
+    max-width: 100%;
+}
+#edit .form-control.Registrar {
+    width: 250px;
+    max-width: 100%;
+}
+#edit .modal-header {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #D2691E;
+}
+#edit .modal-header h4 {
+    color: #ffffff;
+}
+#edit .table tr:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+#edit .modal-body.specialEdit {
+    padding-bottom: 60px;
+}
+#edit .modal-body.specialEdit .table tbody tr td:last-child {
+    width: 200px;
+}
+#edit .modal-body.specialEdit .table tbody tr td:last-child p {
+    float: left;
+    padding-left: 14px;
+}
+
+
+
+#edit .outer {
+    position: relative;
+}
+#edit .outer .inner {
+    overflow-x: scroll;
+    margin-left: 180px;
+}
+#edit .outer .table {
+    table-layout: fixed;
+}
+
+#edit .outer .table tr:nth-child(even) td,
+#edit .outer .table tr:nth-child(even) th {
+    background-color: #eeeeee;
+}
+#edit .outer .table tr:nth-child(even) td:first-child,
+#edit .outer .table tr:nth-child(even) th:first-child {
+    background-color: #eeeeee;
+}
+#edit .outer .table tr td:first-child {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #dddddd;
+}
+#edit .outer .table tr th:first-child {
+    border-bottom: 1px solid #dddddd;
+}
+#edit .outer .table thead tr th,
+#edit .outer .table tbody tr td {
+    padding: 4px 8px;
+    margin: 0;
+    border: none;
+}
+#edit .outer .table thead tr th:first-child,
+#edit .outer .table tbody tr td:first-child {
+    position: absolute;
+    margin-left: -180px;
+    background-color: #ffffff;
+    width: 180px;
+}
+#edit .outer .table thead tr th {
+    width: 200px;
+    max-width: 100%;
+}
+
+
+
+
+
+/* CUSTOMER INFO */
+#customerinfo .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#customerinfo .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#customerinfo .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+.dependentDomain .wellDomain {
+    background: linear-gradient(#FFFDE8, #FFFBD0);
+    padding: 20px 20px 10px 20px;
+    margin: 20px;
+    border-radius: 6px;
+}
+.dependentDomain .wellDomain .form-group {
+    margin: 0 0 10px 0;
+}
+.dependentDomain .wellDomain .form-group label {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+.dependentDomain hr {
+    margin: 0 20px 16px 20px;
+}
+
+/*==================== CURRENT DOMAIN - BUTTONS ====================*/
+/* WARNING */
+#warning .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #f0ad4e;
+}
+#warning .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#warning .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+/* SUCCESS */
+#success .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #449d44;
+}
+#success .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#success .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+/*==================== CURRENT DOMAIN / DOMAIN|PORTFOLIO ====================*/
+/* ADD NEW */
+#addNew .modal-dialog {
+    width: 63%;
+}
+#addNew .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#addNew .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#addNew .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* SUB-ADD NEW */
+#subaddNew .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#subaddNew .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subaddNew .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* SUB-ADD ONE */
+#subaddone .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#subaddone .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subaddone .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+/* SUB-ADD ONE */
+#subremovedomain .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#subremovedomain .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subremovedomain .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* WHOIS */
+#whois .modal-dialog .modal-content .modal-header {
+    background-color: #46b8da;
+    border-radius: 4px 4px 0 0;
+}
+#whois .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#whois .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* DELETE */
+#delete .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #B22222;
+}
+#delete .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#delete .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 5px 5px;
+    background-color: #efefef;
+}
+
+/* INFO */
+#info .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #449d44;
+}
+#info .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#info .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+/*==================== CURRENT DOMAIN / BRAND|PORTFOLIO ====================*/
+/* DELETEIP */
+#deleteip .modal-dialog .modal-content .modal-header {
+    background-color: #B22222;
+    border-radius: 4px 4px 0 0;
+}
+#deleteip .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#deleteip .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* INFOIP */
+#infoip .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #449d44;
+}
+#infoip .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#infoip .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+/* NOTES */
+#note .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #D2691E;
+}
+#note .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#note .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+
+/* Quotation */
+#subquote .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #D2691E;
+}
+#subquote .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subquote .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+/* Quotation Dialog */
+#subquotedialog .modal-dialog .modal-content .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #D2691E;
+}
+#subquotedialog  .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subquotedialog  .modal-dialog .modal-content .modal-footer {
+    border-radius: 0 0 4px 4px;
+    background-color: #efefef;
+}
+
+/*==================== CURRENT DOMAIN / BRAND / BUTTONS ====================*/
+/* QUICK ADD NEW */
+#subaddNewDS .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#subaddNewDS .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subaddNewDS .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* SUB-EDIT */
+#subedit .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#subedit .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#subedit .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* ADD NEW BRAND */
+#addNewBrand .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#addNewBrand .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#addNewBrand .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* DELETE BRAND */
+#deleteBrand .modal-dialog .modal-content .modal-header {
+    background-color: #B22222;
+    border-radius: 4px 4px 0 0;
+}
+#deleteBrand .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#deleteBrand .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/*==================== STATUS CODES ====================*/
+#statusCodes .table tbody tr td:last-child {
+    width: 150px;
+}
+#statusCodes .table tbody tr td p {
+    float: left;
+    padding-left: 14px;
+}
+
+/*==================== STATUS CODES|DOMAIN TYPE|MODEL PORTFOLIO|PRODUCTS|PRICES|UNITS / BUTTON - EDIT ====================*/
+#statEdit .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#statEdit .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#statEdit .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/*==================== USER ACCOUNT / BUTTON - EDIT ====================*/
+/* USER EDIT */
+#userEdit .modal-dialog .modal-content .modal-header {
+    background-color: #D2691E;
+    border-radius: 4px 4px 0 0;
+}
+#userEdit .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#userEdit .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* APPROVE */
+#approve .modal-dialog .modal-content .modal-header {
+    background-color: #337ab7;
+    border-radius: 4px 4px 0 0;
+}
+#approve .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#approve .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* APPROVE AS ADMIN */
+#approveasadmin .modal-dialog .modal-content .modal-header {
+    background-color: #5cb85c;
+    border-radius: 4px 4px 0 0;
+}
+#approveasadmin .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#approveasadmin .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+/* DECLINE */
+#decline .modal-dialog .modal-content .modal-header {
+    background-color: #ac2925;
+    border-radius: 4px 4px 0 0;
+}
+#decline .modal-dialog .modal-content .modal-header h4 {
+    color: #ffffff;
+}
+#decline .modal-dialog .modal-content .modal-footer {
+    background-color: #efefef;
+    border-radius: 0 0 4px 4px;
+}
+
+
+/* SUB EDIT */
+#subaddNew .modal-header {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #D2691E;
+}
+#subaddNew .modal-header h4 {
+    color: #ffffff;
+}
+#subaddNew.modal .modal-dialog .modal-content .modal-body .form-group {
+    height: 136px;
+}
+#subedit .modal-header {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #D2691E;
+}
+#subedit .modal-header h4 {
+    color: #ffffff;
+}
+#subedit .table tr td {
+    border-top: 0px;
+}
+#subedit .modal-xl .modal-body .table-responsive .table tbody tr td:last-child {
+    width: 50px;
+}
+#subedit .modal-xl .modal-body .form-group .table tbody tr td input.checkboxes {
+    margin: 0;
+    box-shadow: none;
+}
+
+
+#view .modal-header {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #D2691E;
+}
+#view .modal-header h4 {
+    color: #ffffff;
+}
+/* CUSTOMER IDEAL DOMAIN */
+#view .modal-body.specialView {
+    padding-bottom: 50px;
+}
+#view .modal-body.specialView .table {
+    margin-bottom: 10px;
+}
+
+/*========== THANK YOU ==========*/
+.thankYou {
+    background-color: #009933;
+    width: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 150px;
+    box-shadow: 0px 20px 50px rgba(0, 38, 13, 0.8);
+}
+.thankYou p,
+.thankYou h1 {
+    color: #ffffff;
+}
+
+/*========== BODY ==========*/
+/* DASHBOARD */
+.bpDesign h1.overview {
+    padding: 20px 10px;
+}
+.bpDesign p {
+    padding: 10px 0px;
+}
+    .dashEffect {
+        transition: ease-out .3s;
+        -webkit-transition: ease-out .3s;
+    }
+    .dashEffect:hover img {
+        width: 110px;
+        transition: ease-in .3s;
+        -webkit-transition: ease-in .3s;
+        animation-name: dasheffect;
+        animation-duration: .3s;
+    }
+    @keyframes dasheffect {
+        from {
+            transition: ease-in .3s;
+            -webkit-transition: ease-in .3s;
+        }
+    }
+
+a.bpClick {
+    text-decoration: none;
+}
+.cdCustomer {
+    background-color: #0094ff;
+    padding: 20px;
+}
+    .cdCustomer h1 {
+        margin: 0px;
+        color: #ffffff;
+    }
+    .cdCustomer p {
+        color: #ffffff;
+    }
+    .cdCustomer img {
+        float: right;
+        filter: invert(97%);
+        -webkit-filter: invert(97%);
+        transition: ease-out .2s;
+        -webkit-transition: ease-out .2s;
+    }
+    .cdCustomer img:hover {
+        width: 106px;
+        transition: ease-in .2s;
+        -webkit-transition: ease-in .2s;
+    }
+
+.idCustomer {
+    background-color: #ee3a3a;
+    padding: 20px;
+}
+    .idCustomer h1 {
+        margin: 0px;
+        color: #ffffff;
+    }
+    .idCustomer p {
+        color: #ffffff;
+    }
+    .idCustomer img {
+        float: right;
+        filter: invert(97%);
+        -webkit-filter: invert(97%);
+        transition: ease-out .2s;
+        -webkit-transition: ease-out .2s;
+    }
+    .idCustomer img:hover {
+        width: 106px;
+        transition: ease-in .2s;
+        -webkit-transition: ease-in .2s;
+    }
+
+.ipCustomer {
+    background-color: #a92be0;
+    padding: 20px;
+}
+    .ipCustomer h1 {
+        margin: 0px;
+        color: #ffffff;
+    }
+    .ipCustomer p {
+        color: #ffffff;
+    }
+    .ipCustomer img {
+        float: right;
+        filter: invert(97%);
+        -webkit-filter: invert(97%);
+        transition: ease-out .2s;
+        -webkit-transition: ease-out .2s;
+    }
+    .ipCustomer img:hover {
+        width: 106px;
+        transition: ease-in .2s;
+        -webkit-transition: ease-in .2s;
+    }
+
+.sugCustomer {
+    background-color: #009900;
+    padding: 20px;
+}
+    .sugCustomer h1 {
+        margin: 0px;
+        color: #ffffff;
+    }
+    .sugCustomer p {
+        color: #ffffff;
+    }
+    .sugCustomer img {
+        float: right;
+        filter: invert(97%);
+        -webkit-filter: invert(97%);
+        transition: ease-out .2s;
+        -webkit-transition: ease-out .2s;
+    }
+    .sugCustomer img:hover {
+        width: 106px;
+        transition: ease-in .2s;
+        -webkit-transition: ease-in .2s;
+    }
+
+.loginHeader {
+    margin: 30px 40px;
+    padding: 20px;
+}
+
+.header-register h3 a {
+    color: #222222;
+}
+/* MODEL PORTFOLIO */
+.mentForm {
+    padding: 10px;
+}
+.mentForm h2 {
+    float: left;
+}
+.mentForm button.btn {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* CHANGE PASSWORD */
+
+/* WHOIS */
+.whois-header {
+    position: relative;
+}
+.whois-img {
+    position: relative;
+    z-index: 888;
+}
+.whois-img img {
+    margin: auto;
+}
+.whois-lineBackground {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 777;
+}
+    .upper-line {
+        background-color: #162c2a;
+        background-size: cover;
+        height: 6px;
+        margin-bottom: 6px;
+    }
+    .lower-line {
+        background-color: #2ab58b;
+        background-size: cover;
+        height: 6px;
+        margin-top: 6px;
+    }
+    .space {
+        padding: 50px;
+    }
+.whois-search {
+    background: linear-gradient(#E1DFDF, #C1BFBF);
+    background: -o-linear-gradient(#E1DFDF, #C1BFBF);
+    background: -moz-linear-gradient(#E1DFDF, #C1BFBF);
+    background: -webkit-linear-gradient(#E1DFDF, #C1BFBF);
+    border-radius: 8px;
+    padding: 40px 120px;
+}
+.whois-result pre {
+    padding: 15px;
+    font-family: Verdana, Arial;
+    margin: 15px 0;
+    white-space: pre-wrap;
+}
+
+/* CUSTOMER DOMAIN */
+.glyphicon.bpGlyph:hover {
+    color: #0026ff;
+    text-shadow: 1px 1px 4px #999999;
+}
+
+/*========== FOOTER ==========*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #dddddd;
+}
+.footer p {
+    padding-top: 17px;
+}
+.footer p,
+.footer #timeYear {
+    color: #333333;
+}
+.footer a img {
+    padding-top: 12px;
+}
+
+/* Media Queries */
+@media (min-width: 992px){
+    /* Customer Ideal Domain */
+    #edit .modal-lg {
+       width: 1300px;
+    }
+    #edit .modal-lg .table tr td:first-child {
+        width: 300px;
+    }
+    #edit .modal-lg .table tr td:last-child {
+        max-width: 60px;
+    }
+
+    /* MODEL PORTFOLIO */
+    #edit .modal-body .table tr td.moPort:first-child {
+        min-width: 350px;
+    }
+
+    /* STATUS CODE */
+    #view .modal-lg .table tr td:first-child {
+        width: 250px;
+    }
+
+}

@@ -1,0 +1,209 @@
+/*========== REGISTER AND LOGIN DESIGN ==========*/
+.regForm {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.bpRegister {
+    padding: 30px;
+    max-width: 600px;
+    background-color: #FAF0E8;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 15px 20px #3F2009;
+}
+
+.loginForm {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.bpLogin {
+    padding: 30px;
+    max-width: 600px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 15px 20px #6f6f6f;
+}
+
+.forgotForm {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bpForgot {
+    padding: 30px;
+    max-width: 600px;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 15px 20px #333333;
+}
+.bpForgot h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.bpForgot p {
+    padding: 0 20px 30px 20px;
+}
+
+/* CHANGE PASSWORD */
+.bpChange {
+    width: 700px;
+    background-color: #99CCCC;
+    background: -webkit-linear-gradient(45deg, #F7F6F4, #E0EAF4);
+    background: -o-linear-gradient(45deg, #F7F6F4, #E0EAF4);
+    background: -moz-linear-gradient(45deg, #F7F6F4, #E0EAF4);
+    background: linear-gradient(45deg, #F7F6F4, #E0EAF4);
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 100px;
+    margin: 100px auto;
+    box-shadow: 0px 5px 10px #afafaf;
+    -moz-box-shadow: 0px 5px 15px #afafaf;
+    -webkit-box-shadow: 0px 5px 15px #afafaf;
+}
+.bpChange .text-center,
+.bpChange .control-label {
+    color: #252525;
+}
+.bpChange h1 {
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 15px;
+}
+
+/*========== INPUT FORM-CONTROL ==========*/
+.form-control.reg {
+    border-width: 2px;
+}
+.form-control.reg:focus {
+    border-color: #D2691E;
+    box-shadow: 0px 5px 15px #542A0C;
+}
+
+.form-control.logn {
+    border-width: 2px;
+}
+.form-control.logn:focus {
+    border-color: #5bc0de;
+    box-shadow: 0px 5px 15px #244D59;
+}
+
+.form-control.forgot {
+    border-radius: 0px;
+    border: 2px solid #dfdfdf;
+    padding: 20px;
+}
+.form-control.forgot:focus {
+    border-color: #5bc0de;
+    box-shadow: 0px 5px 15px #244D59;
+}
+
+/*========== FORM BUTTON ==========*/
+.btn-oranger {
+    background-color: #D2691E;
+    border: 2px solid #D2691E;
+    color: #FFFFFF;
+}
+.btn-oranger:hover {
+    background-color: #FFFFFF;
+    color: #D2691E;
+    border: 2px solid #D2691E;
+    box-shadow: 0px 5px 15px #542A0C;
+}
+.btn-oranger:active {
+    background-color: #7E3F12;
+    border: 2px solid #7E3F12;
+    color: #FFFFFF;
+    box-shadow: 0px 0px;
+}
+
+/* LOGIN FORM */
+.btn-logn {
+    background-color: #1291b7;
+    border: 2px solid #1291b7;
+    color: #FFFFFF;
+}
+.btn-logn:hover {
+    background-color: #FFFFFF;
+    color: #5bc0de;
+    border: 2px solid #1291b7;
+    box-shadow: 0px 5px 15px #244D59;
+}
+.btn-logn:active {
+    background-color: #244D59;
+    border: 2px solid #244D59;
+    color: #FFFFFF;
+    box-shadow: 0px 0px;
+}
+
+/* FORGOT PASSWORD */
+.btn-forgot {
+    background-color: #008B8B;
+    border: 2px solid #008B8B;
+    color: #FFFFFF;
+}
+.btn-forgot:hover {
+    background-color: #FFFFFF;
+    color: #008B8B;
+    border: 2px solid #008B8B;
+    box-shadow: 0px 5px 15px #002323;
+    -webkit-transition: ease-in-out .3s;
+    -moz-transition: ease-in-out .3s;
+    transition: ease-in-out .3s;
+}
+.btn-forgot:active {
+    background-color: #002323;
+    border: 2px solid #002323;
+    color: #FFFFFF;
+    box-shadow: 0px 0px;
+}
+
+/* CHANGE PASSWORD */
+.btn-change {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #000000;
+    padding: 10px 24px;
+}
+.btn-change:hover {
+    background-color: #fafafa;
+    border: 1px solid #afafaf;
+    color: #000000;
+}
+.btn-change:active {
+    background-color: #afafaf;
+    border: 1px solid #afafaf;
+    color: #FFFFFF;
+}
+
+/* ADD NEW BUTTON */
+.btn-addnew {
+    background-color: #D2691E;
+    color: #ffffff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.btn-addnew:link {
+    background-color: #D2691E;
+    color: #ffffff;
+}
+.btn-addnew:visited {
+    background-color: #D2691E;
+    color: #ffffff;
+}
+.btn-addnew:hover {
+    background-color: #A85418;
+    color: #ffffff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.btn-addnew:active {
+    background-color: #D2691E;
+    color: #ffffff;
+}
+
+
+/* CUSTOM QUICK ADD BUTTON */
+.custom-quickadd {
+    background-image: url(Images/quick-add-icon.png);
+    background-repeat: no-repeat;
+}

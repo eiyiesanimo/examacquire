@@ -1,0 +1,191 @@
+@import "homeNavbar.css";
+@import "mediaQuery.css";
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, Arial;
+    font-weight: 600;
+}
+p, a, input, label, button, table, td {
+    font-family: Verdana, Arial;
+}
+
+/* BODY */
+/* MASTER PAGE */
+
+.fstamp img {
+    width: 1000px;
+    margin: auto;
+}
+
+.dividerFinder {
+    background-color: #f78024;
+    height: 10px;
+    margin: 0 auto;
+}
+/* HEADER */
+.form-control:focus {
+    border-color: #dfa90f;
+    border-width: 1px;
+    box-shadow: 0px 5px 15px rgba(153, 153, 153, 0.8);
+}
+
+.btn {
+    padding: 8px 30px;
+}
+.btn-tbNext {
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.midPart .bpService-table .table tr:nth-child(even) td {
+    padding: 10px 15px;
+    margin: 0;
+    border: none;
+    background-color: #efefef;
+}
+/* LOGIN.ASPX */
+.loginPage {
+    background-color: rgba(34, 34, 34, 0.6);
+    padding: 40px;
+    margin: 150px 100px 0 100px;
+    border-radius: 10px;
+}
+.loginPage label {
+    color: #ffffff;
+}
+.warning-letter {
+    color: #FF0000;
+}
+
+/* REGISTER.ASPX */
+.header-register .container {
+    padding: 0 50px;
+}
+.header-register p {
+    text-indent: 20px;
+}
+.registerPage {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 40px;
+}
+
+/* FORGOT PASSWORD */
+.forgotForm {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 600px;
+    margin: 150px auto;
+    padding: 30px;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px #333333;
+}
+.bpForgot h2 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.bpForgot p {
+    padding: 0 20px 30px 20px;
+}
+    .form-control.forgot {
+        border-radius: 0px;
+        border: 1px solid #dfdfdf;
+        padding: 20px;
+    }
+    .form-control.forgot:focus {
+        border-color: #5bc0de;
+        box-shadow: 0px 5px 15px #244D59;
+    }
+    .btn-forgot {
+        background-color: #008B8B;
+        border: 1px solid #008B8B;
+        color: #FFFFFF;
+    }
+    .btn-forgot:hover {
+        background-color: #FFFFFF;
+        color: #008B8B;
+        border: 1px solid #008B8B;
+        box-shadow: 0px 5px 15px #002323;
+        -webkit-transition: ease-in-out .3s;
+        -moz-transition: ease-in-out .3s;
+        transition: ease-in-out .3s;
+    }
+    .btn-forgot:active {
+        background-color: #002323;
+        border: 1px solid #002323;
+        color: #FFFFFF;
+        box-shadow: 0px 0px;
+    }
+
+.bpContact {
+    font-family: Verdana, Arial;
+    padding: 50px;
+}
+.minifoot-links li a:hover {
+    color: #f78024;
+}
+.minifoot-links li a:link {
+    text-decoration: none;
+}
+.copyright-info a:hover {
+    color: #f78024;
+}
+
+/* THANKS.ASPX */
+#thanks {
+
+}
+.thankYou {
+    background-color: #efefef;
+    margin: 20px 50px;
+    padding: 40px;
+}
+
+/* Customer Domains Dropdown */
+li.dropdown .dropdown-menu li a {
+    color: #D2691E;
+}
+li.dropdown .dropdown-menu li:hover a {
+    background-color: #D2691E;
+    color: #ffffff;
+}
+/* LEVELS */
+.levels {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+#domains {
+    padding: 20px;
+}
+#port {
+    padding-bottom: 50px;
+}
+
+/* BUTTONS FOR REGISTER */
+.btn-register {
+    background-color: #0000aa;
+    color: #ff981a;
+    /*color: #f78024;*/
+    font-weight: 600;
+    border: 2px solid #ff981a;
+}
+.btn-register:hover {
+    color: #ff981a;
+    box-shadow: 0 3px 7px #999999;
+}
+
+
+.buttonForRegister {
+    padding: 15px 0;
+}
