@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
@@ -20,7 +20,7 @@
 
     <style>
         .navbar-brand {padding: 0px;}
-        .navbar-brand>img {height: 100%;padding: 15px;width: auto;}
+        .navbar-brand>img {height: 100%;padding: 15px;width: 20%;}
     </style>
 
 </head>
@@ -28,7 +28,7 @@
 <body>
     <!---Navigation Bar-->
     <div class="container">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
@@ -41,7 +41,7 @@
                         <img src="https://www.wherepigsfly.org/wp-content/uploads/2015/09/Paypal-Logo-Transparent-png-format-large-size.png" alt="PayPal">
                     </a>
                 </div>
-                <div id="navbar1" class="navbar-collapse collapse">
+                <div id="navbar1" class=" pull-right navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
@@ -65,10 +65,35 @@
             <!--/.container-fluid -->
         </nav>
     </div>
-
+    <br/>
+    <br/>
+    <br />
 
     <!--Form-->
     <form id="form1" >
+        <div class="container" style="text-align:justify;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <p>
+                <h1>Billing Agreements</h1>
+                After you activate a billing plan, you can create one or more billing agreements, or actual subscriptions, that you base on the plan. A billing agreement allows a merchant to charge a buyer's PayPal account when they purchase goods from them or use their service. An example of this would be an agreement to pay seller fees for listing items on an online store.
+                <br />
+                <br />
+                The agreement inherits information from the referenced plan. You also supply customer and payment information and, optionally, can override the referenced plan's merchant preferences and shipping fees and taxes.
+
+                You can create an agreement for a recurring PayPal payment.
+                <br />
+                <br />
+                The customer must approve an agreement for a PayPal payment before you can execute it:
+                <br />
+                <br />
+                <ol>
+                    <li>You create the agreement. The response includes links to get the customer's approval and execute the plan. Both links include a payment token.</li>
+                    <li>The customer approves the agreement and enters customer and payment details.</li>
+                    <li>You execute the agreement by using the execute link and the payment token.</li>
+               </ol>
+                    <br />
+                    The agreement becomes an actual subscription and the customer becomes a subscriber.
+           </p>
+        </div>
         <div ng-app="myApp" ng-controller="myCtrl">
             <div class="container">
                 <div class="col-md-8 col-md-offset-2" style="background-color: #fff;padding: 50px;border-radius: 10px; margin-bottom:30px;">
