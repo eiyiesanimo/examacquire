@@ -20,7 +20,7 @@
 
     <style>
         .navbar-brand {padding: 0px;}
-        .navbar-brand>img {height: 100%;padding: 15px;width: 18%;}
+        .navbar-brand>img {height: 100%;padding: 15px;width: auto;}
     </style>
 
 </head>
@@ -28,7 +28,7 @@
 <body>
     <!---Navigation Bar-->
     <div class="container">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
@@ -41,11 +41,11 @@
                         <img src="https://www.wherepigsfly.org/wp-content/uploads/2015/09/Paypal-Logo-Transparent-png-format-large-size.png" alt="PayPal">
                     </a>
                 </div>
-                <div id="navbar1" class=" pull-right navbar-collapse collapse">
+                <div id="navbar1" class=" navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#"><i class="fa fa-question-circle"></i> About</a></li>
+                        <li><a href="#"><i class="fa fa-address-card"></i> Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -59,6 +59,11 @@
                             </ul>
                         </li>
                     </ul>
+                    <ul class ="nav navbar-nav pull-right">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
                 </div>
                 <!--/.nav-collapse -->
             </div>
@@ -66,8 +71,6 @@
         </nav>
     </div>
     <br/>
-    <br/>
-    <br />
 
     <!--Form-->
     <form id="form1" >
@@ -148,14 +151,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="text-center center-block">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
+
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">
             © 2018 Copyright.
